@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#home {
+    text-align: center;
+    background: #fff;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.home-content img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin: 0.5rem 0;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact form {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 0.7rem 1.5rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
